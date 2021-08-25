@@ -3,8 +3,6 @@
 # **project-Sisyphus**  
 One must imagine Sisyphus happy.
 
-[test](https://gnusuy.github.io/project-Sisyphus.github.io/test.md)
-
 <!--프로젝트명-->
 
 <!--TRAVEL-HISTORY-->
@@ -25,12 +23,11 @@ One must imagine Sisyphus happy.
   <details>
   <summary><b>portfolio</b></summary>
   <div markdown="1">
-
-  - Github pages를 생성하는 방법
-    - 1. 
-    - 2. 
-    - 3. 
     
+  - [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus.github.io/how-to-create-github-pages.html)
+  - a
+  - b
+
   </div>
   </details>
  
