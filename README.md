@@ -1,2 +1,2 @@
-# project-Sisyphus.github.io
+# project-Sisyphus
 One must imagine Sisyphus happy.
