@@ -3,7 +3,7 @@
 # **project-Sisyphus**  
 One must imagine Sisyphus happy.
 
-[test](https://gnusuy.github.io/project-Sisyphus.github.io/test.html)
+[test](https://gnusuy.github.io/project-Sisyphus.github.io/test.md)
 
 <!--프로젝트명-->
 
