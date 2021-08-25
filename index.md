@@ -1,8 +1,7 @@
 <!--프로젝트명-->
 
 # **project-Sisyphus**  
-One must imagine Sisyphus happy.<br>
-test 테스트
+One must imagine Sisyphus happy.
 
 <!--프로젝트명-->
 
