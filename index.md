@@ -8,7 +8,7 @@ One must imagine Sisyphus happy.
 <!--TRAVEL-HISTORY-->
 
   <details>
-  <summary>travel-history</summary>
+  <summary><b>travel-history</b></summary>
   <div markdown="1">
 
   - 21.08.26. 첫 날이다.
@@ -21,13 +21,13 @@ One must imagine Sisyphus happy.
 <!--PORTFOLIO-->
 
   <details>
-  <summary>portfolio</summary>
+  <summary><b>portfolio</b></summary>
   <div markdown="1">
 
-  - ***Github pages를 생성하는 방법***
-    - 1.
-    - 2.
-    - 3.
+  - Github pages를 생성하는 방법
+    - 1. 
+    - 2. 
+    - 3. 
     
   </div>
   </details>
