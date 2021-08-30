@@ -25,7 +25,6 @@ One must imagine Sisyphus happy.
   </details>
   
 <!--TRAVEL-HISTORY-->
-<br>
 <!--QUESTS-->
 
   <details>
