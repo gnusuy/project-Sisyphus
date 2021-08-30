@@ -3,7 +3,7 @@
 One must imagine Sisyphus happy.
 
  <details>
-  <summary><b>what are this pages?/b></summary>
+  <summary><b>what are this pages?</b></summary>
   <div markdown="1">
   ![Sisyphus](https://github.com/gnusuy/project-Sisyphus/blob/main/sisyphus_pic.jpg?raw=true)
 시시푸스
