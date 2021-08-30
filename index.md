@@ -31,9 +31,9 @@ One must imagine Sisyphus happy.
   <summary><b>quests</b></summary>
   <div markdown="1">
     
-  - 01. [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus.github.io/how-to-create-github-pages.html)
-  - 02.
-  - 03.
+ 01. [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus.github.io/how-to-create-github-pages.html)
+ 02.
+ 03.
 
   </div>
   </details>
