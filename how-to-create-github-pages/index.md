@@ -7,8 +7,8 @@
 **0. 먼저 [Github](https://github.com) 에 접속해서 회원가입을 한다.** <br>
 
 **1. Github 에서 저장소(Repository)를 만든다.**<br><br>
-<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/1.png?raw=true" width="700" border="2"><br><br>
-<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/2.png?raw=true" width="700" border="2"><br>
+<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/1.png?raw=true" width="700" ><br><br>
+<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/2.png?raw=true" width="700" ><br>
 
    > - Repository name : <사용자명>.github.io 혹은 <프로젝트/조직명>.github.io 로 명명한다.<br>
    > - Description : 저장소에 대한 상세 설명을 쓸 수 있다. (선택) <br>
@@ -17,13 +17,13 @@
 <br>
 
 **2. 방금 만든 Github 저장소의 페이지에 들어가서 Settings 를 누른다.**<br><br>
-   <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/2.5.PNG?raw=true" width="700" border="2"><br>
+   <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/2.5.PNG?raw=true" width="700" ><br>
 **3. [Settings] 페이지를 쭉 내리면 [GitHub Pages] 항목이 보인다.** <br>
-   <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/3.png?raw=true" width="700" border="2"><br>
+   <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/3.png?raw=true" width="700" ><br>
 **4. [None]으로 선택된 상자를 클릭해서 자신이 보여주고자 하는 브랜치(Branch)를 [main]으로 선택하고, [Save] 버튼을 누른다.**<br>
-   <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/4.png?raw=true" width="700" border="2"><br><br>  
+   <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/4.png?raw=true" width="700" ><br><br>  
 **5. 페이지가 개설되었고, 알려준 주소를 복사해서 접속한다.**<br><br>
-   <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/5.png?raw=true" width="700" border="2">
+   <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/5.png?raw=true" width="700">
    
  > 링크를 받았어도 바로 접속되지 않는 경우가 있으나, 3~5분 정도 기다렸다가 재접속을 하면 정상적으로 작동한다.
 
@@ -31,8 +31,8 @@
 
 **6. 개설된 페이지를 확인한다.** <br><br>
 
-<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/6.PNG?raw=true" width="700" border="2"> <br>
-<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/7.PNG?raw=true" width="700" border="2">
+<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/6.PNG?raw=true" width="700" border="20px"> <br>
+<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/7.PNG?raw=true" width="700" border="20px">
 
 > 개설된 페이지 링크로 접속해보면 저장소에 있는 README.md 파일의 내용이 표시된다. 나는 README.md 파일을 index.md 로 이름을 변경해서 사용하고 있다.
 
@@ -49,7 +49,7 @@
 
 <br>
 
-<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/8.PNG?raw=true" width="700" border="2"><br>
+<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/8.PNG?raw=true" width="700"><br>
 
 > 그래서 나는 해당 md파일을 포함하는 폴더를 직접 만들어서 저장소에 업로드했다.<br>
 해당 폴더 안의 index.md 파일을 만들어주고 원하는 내용을 해당 파일에 넣었다.<br> 
