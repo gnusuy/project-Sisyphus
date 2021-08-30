@@ -29,22 +29,27 @@
 
 <br>
 
-**6. 개설된 페이지를 확인한다.** <br>
-    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/6.png?raw=true" width="700" border="2">
-    
+**6. 개설된 페이지를 확인한다.** <br><br>
+
+<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/6.PNG?raw=true" width="700" border="2"> <br>
+<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/7.PNG?raw=true" width="700" border="2">
+
 > 개설된 페이지 링크로 접속해보면 저장소에 있는 README.md 파일의 내용이 표시된다. 나는 README.md 파일을 index.md 로 이름을 변경해서 사용하고 있다.
 
+<br>
+
 **6-1. 페이지 안에 다른 페이지를 넣고 싶은데 어떻게 해야하나?** <br>
-    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/7.png?raw=true" width="700" border="2">
 
-> 처음에는 마크다운 파일에서 활용되는 문법을 써서 열고 싶은 파일의 링크를 직접 걸었다. 그랬는데 한글이 다 깨져서 나왔다. 
+> 처음에는 마크다운 파일에서 활용되는 문법을 써서 열고 싶은 파일의 하이퍼링크를 직접 걸었다. 그랬는데 한글이 다 깨져서 나왔다.<br>
+>  ``` 01. [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages/index.md)``` (<-이 내용을 md 파일에 넣고 하이퍼링크 버튼을 만들었다.) <br>
+ [Github pages를 생성하는 방법 <실패>](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages/index.md)
 
->  ``` 01. [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages/index.md)``` (이런 방식으로 링크를 걸었는데 결과는 아래와 같다.)<br>
- [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages/index.md)
+<img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/8.PNG?raw=true" width="700" border="2"><br>
 
 > 그래서 나는 해당 md파일을 포함하는 폴더를 만들었다.<br>
-해당 폴더 안의 index.md 파일을 만들어주고 원하는 내용을 해당 파일에 넣었다. 그리고 링크를 https://<블로그주소>/<폴더명> 으로 입력해서 접속하니 한글도 정상적으로 노출되었다.
+해당 폴더 안의 index.md 파일을 만들어주고 원하는 내용을 해당 파일에 넣었다.<br> 
+그리고 링크를 https://<블로그주소>/<폴더명> 으로 입력해서 접속하니 한글도 정상적으로 노출되었다.
 
->  ``` 01. [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages)``` (이렇게 하니 됐다.) <br>
- [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages)
+>  ``` 01. [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages)``` (<- 폴더를 만들고 주소를 이렇게 하니 됐다.) <br>
+ [Github pages를 생성하는 방법<성공>](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages)
 
