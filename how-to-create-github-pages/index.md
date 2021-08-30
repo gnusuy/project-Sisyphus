@@ -10,10 +10,10 @@
 <br>  
    2. 방금 만든 Github 저장소의 페이지에 들어가서 Settings 를 누른다.<br><br>
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/2.5.PNG?raw=true" width="700" border="2"><br>
+   3. [GitHub Pages] 항목에서 [None]으로 선택된 상자를 클릭해서 자신이 보여주고자 하는 브랜치(Branch)를 선택하고 [Save] 버튼을 누른다.<br>
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/3.png?raw=true" width="700" border="2"><br>
-   - 상단의 톱니바퀴 모양의 Settings 를 누르고 하단으로 내려가면 [GitHub Pages] 항목이 보인다. <br>
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/4.png?raw=true" width="700" border="2"><br>
-   - [None]으로 선택된 상자를 클릭해서 자신이 보여주고자 하는 브랜치(Branch)를 선택하고 [Save] 버튼을 누른다.<br>
+   -
 <br>
     3. 페이지가 개설되었고, 알려준 주소를 복사해서 접속한다.
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/5.png?raw=true" width="700" border="2">
