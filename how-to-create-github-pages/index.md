@@ -45,7 +45,7 @@
 
 <br>
 
-[Github pages를 생성하는 방법 <실패>](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages/index.md)
+[Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages/index.md)
 
 <br>
 
@@ -59,5 +59,5 @@
 
 <br> 
 
-[Github pages를 생성하는 방법<성공>](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages)
+[Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages)
 
