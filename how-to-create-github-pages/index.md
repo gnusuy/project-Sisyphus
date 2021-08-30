@@ -1,4 +1,6 @@
-Github pages를 생성하는 방법
+* Github pages를 생성하는 방법 * 
+
+> _quest들을 기록하기 위해 github 페이지를 만들었다. 개설 방법은 아래와 같다.
 
 1. Github 에서 저장소(Repository)를 만든다.<br><br>
 <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/1.png?raw=true" width="700" border="2"><br>
