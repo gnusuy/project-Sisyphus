@@ -5,7 +5,7 @@ One must imagine Sisyphus happy.
  <details>
   <summary><b>what are this pages?</b></summary>
   <div markdown="1">
-  ![Alt text](https://github.com/gnusuy/project-Sisyphus/blob/main/sisyphus_pic.jpg?raw=true)
+   <img src="https://github.com/gnusuy/project-Sisyphus/blob/main/sisyphus_pic.jpg?raw=true" width="40%" height="30%"  ></img><br>
 시시푸스
     
   </div>
