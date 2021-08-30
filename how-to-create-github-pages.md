@@ -2,7 +2,7 @@
 Github pages를 생성하는 방법
 
 
-    <b>1. Github 에서 저장소(Repository)를 만든다.</b><br><br>
+    1. Github 에서 저장소(Repository)를 만든다.<br><br>
     <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/1.png?raw=true" width="700" border="2"><br>
 
   
@@ -15,7 +15,7 @@ Github pages를 생성하는 방법
 <br> 
       
 
-    <b>2. 방금 만든 Github 저장소의 페이지에 들어가서 Settings 를 누른다.</b><br><br>
+   2. 방금 만든 Github 저장소의 페이지에 들어가서 Settings 를 누른다.<br><br>
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/2.5.PNG?raw=true" width="700" border="2"><br>
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/3.png?raw=true" width="700" border="2"><br><br>
    - 상단의 톱니바퀴 모양의 Settings 를 누르고 하단으로 내려가면 [GitHub Pages] 항목이 보인다. <br><br>  
@@ -26,7 +26,7 @@ Github pages를 생성하는 방법
 <br>
       
 
-    <b>3. 페이지가 개설되었고, 알려준 주소를 복사해서 접속한다.</b><br><br>
+    3. 페이지가 개설되었고, 알려준 주소를 복사해서 접속한다.<br><br>
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/5.png?raw=true" width="700" border="2">
 
   
