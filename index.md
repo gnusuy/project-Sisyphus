@@ -46,7 +46,7 @@ One must imagine Sisyphus happy.
   <div markdown="1">
  
 > <i>비전공자인 나에게 개발 영역은 멋있고 재밌을 것 같지만 올라가기 힘들어보이는 높은 산이었다. 그래도 지치지 않고 천천히 꾸준히 올라가보려고 한다.<br>
-   나는 감사하게도 주변의 도움을 통해 한 발, 한 발 천천히 공부해가며 기록하고 있다. 혹시라도 새로운 도전에 도움이 필요한 사람들에게  mission 들이 도움이 되었으면 좋겠다.</i>
+   나는 감사하게도 주변의 도움을 통해 한 발, 한 발 천천히 공부해가며 기록하고 있다. 혹시라도 새로운 도전에 도움이 필요한 사람들에게 아래의 mission 들이 도움이 되었으면 좋겠다.</i>
    
  01. [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages)
  02. [test](about:blank)
