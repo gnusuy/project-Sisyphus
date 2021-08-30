@@ -6,8 +6,7 @@ Github pages를 생성하는 방법
     - Repository name : <사용자명>.github.io 혹은 <프로젝트/조직명>.github.io 로 명명한다. <br>
     - Description : 저장소에 대한 상세 설명을 쓸 수 있다. (선택) <br>
     - Public/Private : 저장소를 공개하거나 비공개하여 사용할 수 있다.    
-<br> 
-      
+<br>  
    2. 방금 만든 Github 저장소의 페이지에 들어가서 Settings 를 누른다.<br><br>
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/2.5.PNG?raw=true" width="700" border="2"><br>
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/3.png?raw=true" width="700" border="2"><br><br>
