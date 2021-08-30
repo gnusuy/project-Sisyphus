@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Github pages를 생성하는 방법</title>
-  <meta charset="utf-8">
-</head>
-<body>
-  <h1>Github pages를 생성하는 방법</h1>
+
+Github pages를 생성하는 방법
 
     <p>
     <b>1. Github 에서 저장소(Repository)를 만든다.</b><br><br>
@@ -37,5 +31,3 @@
    <img src= "https://github.com/gnusuy/project-Sisyphus.github.io/blob/main/how-to-create-github-pages/5.png?raw=true" width="700" border="2">
   </p>
   
-</body>
-</html>
