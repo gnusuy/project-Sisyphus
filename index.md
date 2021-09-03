@@ -50,7 +50,7 @@ One must imagine Sisyphus happy.
    나는 감사하게도 주변의 도움을 통해 한 발, 한 발 천천히 공부해가며 기록하고 있다. 혹시라도 새로운 도전에 도움이 필요한 사람들에게 아래의 mission 들이 도움이 되었으면 좋겠다.</i>
    
  01. [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages)
- 02. [Django girls 튜토리얼](https://gnusuy.github.io/project-Sisyphus/django-girls-tutorial)
+ 02. [장고걸스 튜토리얼](https://gnusuy.github.io/project-Sisyphus/django-girls-tutorial)
  03. 
 
   </div>
