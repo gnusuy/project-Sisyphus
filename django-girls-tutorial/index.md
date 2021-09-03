@@ -235,8 +235,8 @@ def post_list(request):
 ## 11. 템플릿 확장하기
 
 - 템플릿 확장 : 장고의 기능을 활용해서 홈페이지에서 계속 사용할 레이아웃의 base가 되는 '템플릿'을 하나 만들어 놓는 것이 '템플릿 확장'의 개념이다. 템플릿이 되는 기본 페이지를 하나 만들어 놓고. 다른 페이지에서 기본페이지 HTML의 일부를 가져와서 사용할 수 있다. 이렇게 하면 수정사항이나 변경사항이 있어도 페이지 별로 모두 각각 변경할 필요 없이 base 만 수정하면 모든 나머지 페이지들도 한번에 수정이 되므로 매우 편리하다.
-- % block content % / % endblock % : 블록을 지정해서 해당 블록 사이에 HTML이 들어갈 수 있는 공간을 만들어 놓았다. 그 사이에 페이지별로 들어가야하는 HTML 내용을 원하는 대로 넣으면 된다. 기본 틀은 같고 안에 들어가는 내용만 저 사이에 넣으면 다른 페이지를 쉽게 만들수 있는 것이다.
-- % extends ‘blog/base.html’ % : (지금 작업중인 post_list.html 파일에) blog.base.html에 있는 템플릿을 연결한다.
+- `{% block content %} / {% endblock %}` : 블록을 지정해서 해당 블록 사이에 HTML이 들어갈 수 있는 공간을 만들어 놓았다. 그 사이에 페이지별로 들어가야하는 HTML 내용을 원하는 대로 넣으면 된다. 기본 틀은 같고 안에 들어가는 내용만 저 사이에 넣으면 다른 페이지를 쉽게 만들수 있는 것이다.
+- `{% extends ‘blog/base.html’ % }`: (지금 작업중인 post_list.html 파일에) blog.base.html에 있는 템플릿을 연결한다.
 
 *****
 
@@ -259,7 +259,7 @@ def post_list(request):
 - 글 추가하기 (post_new)
 
 - forms.py 를 만들어서 Postform() 을 만든다.
-- base.html에 ```{% url ‘post_new’ %} class="top-menu"><span class="glyphicon glyphicon-plus"></span>``` 을 넣어서 url을 삽입한다.
+- base.html에 `{% url ‘post_new’ %} class="top-menu"><span class="glyphicon glyphicon-plus"></span>` 을 넣어서 url을 삽입한다.
 - urls.py 에 path('post/new', views.post_new, name='post_new'), 를 추가한다.
 - views.py 에 post_new() 를 정의한다.(def)
 - post_new()에서 넘길 템플릿을 만든다. blog/templates/blog 폴더 안에 post_edit.html 을 생성한다.
@@ -292,8 +292,8 @@ def post_new(request):
 
 - 글 수정하기 (post_edit)
 
-- post_detail.html 에 ```<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>``` 를 넣어서 url을 삽입함.
-- urls.py 에 ```path('post/<int:pk>/edit/', views.post_edit, name='post_edit'),``` 를 추가한다.
+- post_detail.html 에 `<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>` 를 넣어서 url을 삽입함.
+- urls.py 에 `path('post/<int:pk>/edit/', views.post_edit, name='post_edit'),` 를 추가한다.
 -  views.py 에 post_edit() 를 정의한다. (def)
 - 템플릿은 blog/templates/blog/post_edit.html 를 재사용한다.
 
