@@ -16,8 +16,9 @@
 - [템플릿 동적 데이터](#9-템플릿-동적-데이터)
 - [Django 템플릿](#10-django-템플릿)
 - [템플릿 확장하기](#11-템플릿-확장하기)
-- [Django 폼](#12-django-폼)
-- [마치며](#13-마치며)
+- [애플리케이션 확장하기](#12-애플리케이션-확장하기)
+- [Django 폼](#13-django-폼)
+- [마치며](#14-마치며)
 
 ## 0. 들어가며
 
@@ -132,7 +133,6 @@ admin.site.register(Post)
 https://github.com/settings/profile 링크로 들어가서 developers settings 탭에서 토큰을 발급받을 수 있다. 
 발급 받을때 note에는 간단한 설명을 쓰고, 체크박스는 repo에 해당되는 것만 해주고 'update token'을 누르면 발급된다. 
 발급된 암호를 복사하고 다시 push를 진행할 때 비밀번호 란에 해당 암호를 붙여넣기 하면 해결된다.
-
 ```
 
 *****
@@ -168,6 +168,8 @@ urlpatterns = [
 - name='post_list'), : 앞에 정의한 경로로 들어오는(여기서는 ''이므로 첫 방문 모든 경로) URL에 post_list 라는 이름을 붙여서 view를 구분하겠다.
 
 > 여기도 코드들을 이해하는 것이 조금 어려웠다. 머리속에 홈페이지가 작동하는 구조가 잘 그려지지 않아서 그런것 같았다. 이후에 나오는 views.py 와 urls.py, models.py 세 파일이 연결되면서 유기적으로 홈페이지가 작동하는 것을 이해하면 조금 더 쉽게 이해할 수 있다. 지금은 조금 이해가 안되더라도 나중에 다시 와서 보도록 하자.
+
+> 앞으로 로컬에서 작업한 내용을 http://127.0.0.1:8000 에서 확인하라는 이야기가 많이 나오는데, 그때마다 '2. 나의 첫번째 django 프로젝트' 에서 배운 방법대로 가상환경(virtualenv) 을 세팅하고 'python manage.py runserver' 를 입력해서 웹서버를 실행해줘야한다.
 
 *****
 
@@ -226,35 +228,102 @@ def post_list(request):
 
 ## 10. Django 템플릿
 
-#### &emsp;
- 
-
->
+#### &emsp; HTML에는 파이썬 코드를 직접 넣을 수 없다. 우리가 웹사이트를 접속하기 위해 사용하난 브라우저들(chrome,safari,edge 등)은 HTML만 읽을 수 있다. 그래서 장고에 내장된 템플릿 태그 {{}} 를 써서 파이썬 코드를 HTML 형태로 쉽게 바꿔서 넣을 것이다. HTML으로 만든 파일은 정적이지만 파이썬은 동적으로 작동한다. 장고 템플릿 태그는 정적인 HTML형태의 웹사이트를 쉽게 동적인 형태로 만들수 있게 도와준다.
 
 *****
 
 ## 11. 템플릿 확장하기
 
-#### &emsp;
- 
-
->
-
-*****
-
-## 12. Django 폼
-
-#### &emsp;
- 
-
->
+- 템플릿 확장 : 장고의 기능을 활용해서 홈페이지에서 계속 사용할 레이아웃의 base가 되는 '템플릿'을 하나 만들어 놓는 것이 '템플릿 확장'의 개념이다. 템플릿이 되는 기본 페이지를 하나 만들어 놓고. 다른 페이지에서 기본페이지 HTML의 일부를 가져와서 사용할 수 있다. 이렇게 하면 수정사항이나 변경사항이 있어도 페이지 별로 모두 각각 변경할 필요 없이 base 만 수정하면 모든 나머지 페이지들도 한번에 수정이 되므로 매우 편리하다.
+- {% block content %} / {% endblock} : 블록을 지정해서 해당 블록 사이에 HTML이 들어갈 수 있는 공간을 만들어 놓았다. 그 사이에 페이지별로 들어가야하는 HTML 내용을 원하는 대로 넣으면 된다. 기본 틀은 같고 안에 들어가는 내용만 저 사이에 넣으면 다른 페이지를 쉽게 만들수 있는 것이다.
+- {% extends ‘blog/base.html’ %} : (지금 작업중인 post_list.html 파일에) blog.base.html에 있는 템플릿을 연결한다.
 
 *****
 
-## 13. 마치며
+## 12. 애플리케이션 확장하기
 
-#### &emsp;
+#### &emsp; 지금까지 챕터를 진행하면서 웹페이지는 이제 views.py에 정의한대로 방문자에게 게시글 리스트를 제공하고 있다. 이제는 게시글을 각 페이지마다 개별적으로 볼 수 있게 기능을 추가할 예정이다. 필요한 것은 세 가지이다. '모델' 과 'view', 'url'이다. 먼저, '모델'은 기존에 있는 Post 모델을 쓰면 된다. (기존에 작성된 글을 보여주는거니까) 두번째로, 게시글을 각 페이지마다 보여주기위해 urls.py 를 수정해야한다.(post_detail.html이 될 예정이다). 마지막으로, views.py 에 post_detail 페이지도 보여줄수 있게 urls.py 와 연결해서 변경해야한다.
+
+> '6. Django url' 챕터의 하단에서 이야기한 'views.py, urls.py, models.py' 세 파일이 연결되면서 유기적으로 홈페이지가 작동하는 것을 이 챕터를 수행하면서 이해할 수 있다.
+
+*****
+
+## 13. Django 폼
+
+#### &emsp; 대망의 마지막 챕터이다. 이 챕터에서는 장고 폼을 사용해서 웹페이지에 글을 추가하는 기능, 글을 수정하는 기능을 쉽게 세팅하는 법을 실습한다. 이해해야할 코드도 길고, 해야할 작업도 많은 챕터지만, 저번 챕터에서 post_detail 을 통해서 새로운 기능을 넣는 법을 이미 한번 해본 것의 반복일 뿐이다. 'views.py, urls.py, models.py' 세 파일이 유기적으로 연결되며 홈페이지가 작동되는 그림을 머리속으로 그려보면서 천천히 시도해보자.
+
+> 웹페이지에 추가될 두 가지 기능(글 추가, 글 수정)을 적용하는 방법을 순서대로 정리했고, views.py 에 정의하는 post_new, post_new 코드는 따로 빼서 한줄씩 이해하기 쉽게 풀어서 적었다. 참고해서 진행해보자.
  
+*****
 
->
+- 글 추가하기 (post_new)
 
+- forms.py 를 만들어서 Postform() 을 만든다.
+- base.html에 ```{% url ‘post_new’ %} class="top-menu"><span class="glyphicon glyphicon-plus"></span>``` 을 넣어서 url을 삽입한다.
+- urls.py 에 path('post/new', views.post_new, name='post_new'), 를 추가한다.
+- views.py 에 post_new() 를 정의한다.(def)
+- post_new()에서 넘길 템플릿을 만든다. blog/templates/blog 폴더 안에 post_edit.html 을 생성한다.
+
+```python
+#### blog.views.py ####
+
+def post_new(request):
+    if request.method == "POST":
+        form = PostForm(request.POST)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.author = request.user
+            post.published_date = timezone.now()
+            post.save()
+            return redirect('post_detail', pk=post.pk)
+    else:
+        form = PostForm()
+    return render(request, 'blog/post_edit.html', {'form': form})
+
+```
+- def post_new(request): : post_new 라는 폼은 (request) 를 받았을때, 아래와 같이 작동한다고 정의를 시작한다.
+- if request.method == “POST”: : 만약에 요청된 행동이 “POST(글 데이터를 등록하는 것)” 이라면 return 뒤에 적힌 행동을 해라.
+- else: form = PostForm() : 위에 이야기한 대로 행동이 “POST” 가 아닌 나머지 모든 상황에서는, form 을 PostForm() 기본 폼으로 정의한다.
+- return render(request, 'blog/post_edit.html', {'form': form}) : 요청받은 건을 blog/post_edit.html 으로 보내고, html 안에 있는 템플릿 태그 내 ‘form’은 위에 있는 form 으로 정의한다.
+- form = PostForm(request.POST) : form을 PostForm() 기본 폼 안에 request.POST (등록한 글 데이터가 저장되는 곳) 내용을 넣은 것으로 정의한다.
+- return redirect('post_detail', pk=post.pk) : views.py에 있는  post_detail 로 보내고, pk 값은 post(방금 생성한 글).pk(글에 자동으로 순서를 매기는 변수) 값을 넘겨준다.
+
+*****
+
+- 글 수정하기 (post_edit)
+
+- post_detail.html 에 ```<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>``` 를 넣어서 url을 삽입함.
+- urls.py 에 ```path('post/<int:pk>/edit/', views.post_edit, name='post_edit'),``` 를 추가한다.
+-  views.py 에 post_edit() 를 정의한다. (def)
+- 템플릿은 blog/templates/blog/post_edit.html 를 재사용한다.
+
+```python
+#### blog.views.py ####
+
+def post_edit(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    if request.method == "POST":
+        form = PostForm(request.POST, instance=post)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.author = request.user
+            post.published_date = timezone.now()
+            post.save()
+            return redirect('post_detail', pk=post.pk)
+    else:
+        form = PostForm(instance=post)
+    return render(request, 'blog/post_edit.html', {'form': form})
+
+```
+
+- def post_edit(request, pk): : post_edit 이라는 폼은 (request)를 받았을때, pk값을 체크해서 아래와 같이 작동한다고 정의를 시작한다.
+- post = get_object_or_404(Post, pk=pk) : post를 Post 된 글의 pk값에 맞춰서 글을 가져오거나, 404(페이지 없음)를 가져오는 행동을 하는 것으로 정의한다.
+- form = PostForm(request.POST, instance=post) : form을 PostForm() 기본 폼 안에 request.POST (등록한 글 데이터가 저장되는 곳) 내용을 넣되, post 행동에 따른 내용을 넣는것으로 정의한다.
+
+*****
+
+## 14. 마치며
+
+#### &emsp; 장고걸스 튜토리얼을 1회 완주 했을때는 이해가 안되는 부분도 너무 많아서, 일단은 튜토리얼에서 알려주는 코드를 따라 입력하면서 끝까지 따라왔다. 일단은 다 해보고 다시 눈으로 훑으면서 이해를 해보려고 했다. 마침 튜토리얼을 다 마쳤을때, 주문했던 맥북이 도착해서 다시 처음부터 해볼 수 있는 기회가 생겨서 2회차까지 반복하게 되었다. 처음에는 이해가 어렵던 부분도 이미 한번 다 해본 내용이고, 뒤에 나올 내용도 이해하고 있어서 훨씬 쉽게 진행할 수 있었다. 나는 이 페이지를 작성하기 위해서 튜토리얼을 다시 켜고 보았으니 총 3회를 읽은 셈인데, 다른 분들에게도 다시 한번 눈으로라도 쭉 훑어보는 것을 추천한다.
+
+> 또, 나는 이해한 내용을 간단히 정리하는 것을 좋아해서, 웹사이트가 작동하는 원리와 웹 개발 작업을 하면서 git이 하는 역할을 간단히 그림으로 정리해보았다. 머리 속의 개념을 실제로 그려보면서 꺼내보니 훨씬 이해하기 좋았다. 꼭 그림이 아니더라도 이해한 부분을 간단히 정리하는 일을 해보는 것도 좋을 것 같다.
