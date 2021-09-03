@@ -259,7 +259,7 @@ def post_list(request):
 - 글 추가하기 (post_new)
 
 - forms.py 를 만들어서 Postform() 을 만든다.
-- base.html에 `<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>` 을 넣어서 url을 삽입한다.
+- base.html에 'post_new'라는 이름으로 urls.py에 연결할 수 있는 버튼을 삽입한다.
 - urls.py 에 path('post/new', views.post_new, name='post_new'), 를 추가한다.
 - views.py 에 post_new() 를 정의한다.(def)
 - post_new()에서 넘길 템플릿을 만든다. blog/templates/blog 폴더 안에 post_edit.html 을 생성한다.
@@ -292,7 +292,7 @@ def post_new(request):
 
 - 글 수정하기 (post_edit)
 
-- post_detail.html 에 `<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>` 를 넣어서 url을 삽입함.
+- post_detail.html 에 'post_edit'이라는 이름으로 urls.py에 연결할 수 있는 버튼을 삽입한다
 - urls.py 에 `path('post/<int:pk>/edit/', views.post_edit, name='post_edit'),` 를 추가한다.
 -  views.py 에 post_edit() 를 정의한다. (def)
 - 템플릿은 blog/templates/blog/post_edit.html 를 재사용한다.
@@ -328,5 +328,4 @@ def post_edit(request, pk):
 
 > 또, 나는 이해한 내용을 간단히 정리하는 것을 좋아해서, 웹사이트가 작동하는 원리와 웹 개발 작업을 하면서 git이 하는 역할을 간단히 그림으로 정리해보았다. 머리 속의 개념을 실제로 그려보면서 꺼내보니 훨씬 이해하기 좋았다. 꼭 그림이 아니더라도 이해한 부분을 간단히 정리하는 일을 해보는 것도 좋을 것 같다.
 
-<img src= "https://github.com/gnusuy/project-Sisyphus/blob/main/django-girls-tutorial/djangogirls_1.jpeg?raw=true
-" width="700" > </img>
+<img src= "https://github.com/gnusuy/project-Sisyphus/blob/main/django-girls-tutorial/djangogirls_1.jpeg?raw=true" width="700" > </img>
