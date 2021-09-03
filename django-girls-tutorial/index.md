@@ -235,8 +235,16 @@ def post_list(request):
 ## 11. 템플릿 확장하기
 
 - 템플릿 확장 : 장고의 기능을 활용해서 홈페이지에서 계속 사용할 레이아웃의 base가 되는 '템플릿'을 하나 만들어 놓는 것이 '템플릿 확장'의 개념이다. 템플릿이 되는 기본 페이지를 하나 만들어 놓고. 다른 페이지에서 기본페이지 HTML의 일부를 가져와서 사용할 수 있다. 이렇게 하면 수정사항이나 변경사항이 있어도 페이지 별로 모두 각각 변경할 필요 없이 base 만 수정하면 모든 나머지 페이지들도 한번에 수정이 되므로 매우 편리하다.
-- ```{% block content %} / {% endblock}``` : 블록을 지정해서 해당 블록 사이에 HTML이 들어갈 수 있는 공간을 만들어 놓았다. 그 사이에 페이지별로 들어가야하는 HTML 내용을 원하는 대로 넣으면 된다. 기본 틀은 같고 안에 들어가는 내용만 저 사이에 넣으면 다른 페이지를 쉽게 만들수 있는 것이다.
-- ```{% extends ‘blog/base.html’ %}``` : (지금 작업중인 post_list.html 파일에) blog.base.html에 있는 템플릿을 연결한다.
+- 
+```
+{% block content %}{% endblock %}
+```
+: 블록을 지정해서 해당 블록 사이에 HTML이 들어갈 수 있는 공간을 만들어 놓았다. 그 사이에 페이지별로 들어가야하는 HTML 내용을 원하는 대로 넣으면 된다. 기본 틀은 같고 안에 들어가는 내용만 저 사이에 넣으면 다른 페이지를 쉽게 만들수 있는 것이다.
+- 
+```
+{% extends ‘blog/base.html’ %}
+``` 
+: (지금 작업중인 post_list.html 파일에) blog.base.html에 있는 템플릿을 연결한다.
 
 *****
 
@@ -328,4 +336,5 @@ def post_edit(request, pk):
 
 > 또, 나는 이해한 내용을 간단히 정리하는 것을 좋아해서, 웹사이트가 작동하는 원리와 웹 개발 작업을 하면서 git이 하는 역할을 간단히 그림으로 정리해보았다. 머리 속의 개념을 실제로 그려보면서 꺼내보니 훨씬 이해하기 좋았다. 꼭 그림이 아니더라도 이해한 부분을 간단히 정리하는 일을 해보는 것도 좋을 것 같다.
 
-<img src= "https://github.com/gnusuy/project-Sisyphus/blob/main/django-girls-tutorial/djangogirls_1.jpeg?raw=true" width="700"></img>
+<img src= "https://github.com/gnusuy/project-Sisyphus/blob/main/django-girls-tutorial/djangogirls_1.jpeg?raw=true
+" width="700" > </img>
