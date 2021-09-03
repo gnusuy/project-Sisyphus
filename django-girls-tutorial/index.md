@@ -259,7 +259,7 @@ def post_list(request):
 - 글 추가하기 (post_new)
 
 - forms.py 를 만들어서 Postform() 을 만든다.
-- base.html에 `{% url ‘post_new’ %} class="top-menu"><span class="glyphicon glyphicon-plus"></span>` 을 넣어서 url을 삽입한다.
+- base.html에 `<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>` 을 넣어서 url을 삽입한다.
 - urls.py 에 path('post/new', views.post_new, name='post_new'), 를 추가한다.
 - views.py 에 post_new() 를 정의한다.(def)
 - post_new()에서 넘길 템플릿을 만든다. blog/templates/blog 폴더 안에 post_edit.html 을 생성한다.
