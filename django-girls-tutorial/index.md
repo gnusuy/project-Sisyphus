@@ -14,7 +14,7 @@
 [05. 배포하기!](##배포하기!)<br>
 [06. Django urls](##Django-urls)<br>
 [07. Django 뷰 만들기](##Django-뷰-만들기)<br>
-[08. Django ORM(Querysets)](##Django-ORM(Querysets)<br>
+[08. Django ORM(Querysets)](##Django-ORM(Querysets))<br>
 [09. 템플릿 동적 데이터](##템플릿-동적-데이터)<br>
 [10. Django 템플릿](##Django-템플릿)<br>
 [11. 템플릿 확장하기](##템플릿-확장하기)<br>
