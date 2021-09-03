@@ -1,4 +1,4 @@
-# 장고걸스 튜토리얼
+# Django girls 튜토리얼
 
 > _아래 내용은 1회차 튜토리얼을 진행할 때, 챕터를 넘어가면서 튜토리얼 내 설명만으로는 이해가 어려운 내용들을 따로 메모한 후, 2회차 튜토리얼  때에 이해를 위해 많은 시간을 들인 부분들을 모아놓았다. 물론 튜토리얼 내 설명만으로도 충분히 따라갈 수 있게 잘 설명이 되어있다. 하지만 혹시라도 나처럼 튜토리얼 중에 막히는 부분이 있다면, 위 페이지를 방문해서 조금이나마 튜토리얼을 완수하는데 도움이 되었으면 한다. 막히는 부분이 있는데 여기에서도 도움을 받을 수 없었다면, 오류가 발생한 문장을 직접 구글에 검색해보는 것을 추천한다. 또, 지난 챕터에서 수행한 작업 중에 오류가 있어서 이번 챕터에서 정상적으로 진행되지 않는 경우도 종종 있으니, 다시 뒤로 돌아가서 해보는 것도 좋은 방법이다._
 
@@ -6,33 +6,32 @@
 
 <details><summary>목차</summary>
 
-[00. 들어가며](#들어가며)<br>
-[01. Python 시작하기](#Python-시작하기)<br>
-[02. 나의 첫 번째 Django 프로젝트!](#나의-첫-번째-Django-프로젝트!)<br>
-[03. Django 모델](#Django-모델)<br>
-[04. Django 관리자](#Django-관리자)<br>
-[05. 배포하기!](#배포하기!)<br>
-[06. Django urls](#Django-urls)<br>
-[07. Django 뷰 만들기](#Django-뷰-만들기)<br>
-[08. Django ORM(Querysets)](#Django-ORM(Querysets))<br>
-[09. 템플릿 동적 데이터](#템플릿-동적-데이터)<br>
-[10. Django 템플릿](#Django-템플릿)<br>
-[11. 템플릿 확장하기](#템플릿-확장하기)<br>
-[12. Django 폼](#Django-폼)<br>
+00. 들어가며
+01. Python 시작하기
+02. 나의 첫 번째 Django 프로젝트!
+03. Django 모델
+04. Django 관리자
+05. 배포하기!
+06. Django urls
+07. Django 뷰 만들기
+08. Django ORM(Querysets)
+09. 템플릿 동적 데이터
+10. Django 템플릿
+11. 템플릿 확장하기
+12. Django 폼
 
 </details>
 
-
-## 00. 들어가며
-## 01. Python 시작하기
-## 02. 나의 첫 번째 Django 프로젝트!
-## 03. Django 모델
-## 04. Django 관리자
-## 05. 배포하기!
-## 06. Django urls
-## 07. Django 뷰 만들기
-## 08. Django ORM(Querysets)
-## 09. 템플릿 동적 데이터
-## 10. Django 템플릿
-## 11. 템플릿 확장하기
-## 12. Django 폼
+## [00. 들어가며](#들어가며)
+## [01. Python 시작하기](#Python-시작하기)
+## [02. 나의 첫 번째 Django 프로젝트!](#나의-첫-번째-Django-프로젝트!)
+## [03. Django 모델](#Django-모델)
+## [04. Django 관리자](#Django-관리자)
+## [05. 배포하기!](#배포하기!)
+## [06. Django urls](#Django-urls)
+## [07. Django 뷰 만들기](#Django-뷰-만들기)
+## [08. Django ORM(Querysets)](#Django-ORM(Querysets)
+## [09. 템플릿 동적 데이터](#템플릿-동적-데이터)
+## [10. Django 템플릿](#Django-템플릿)
+## [11. 템플릿 확장하기](#템플릿-확장하기)
+## [12. Django 폼](#Django-폼)
