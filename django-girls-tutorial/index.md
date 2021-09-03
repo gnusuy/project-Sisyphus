@@ -5,21 +5,21 @@
 <br>
 
 <details><summary>목차</summary>
-  
-00. [들어가며](#0-들어가며)
-01. [Python 시작하기](#1-python-시작하기)
-02. [나의 첫 번째 Django 프로젝트!](#2-나의-첫-번째-django-프로젝트)
-03. [Django 모델](#3-django-모델)
-04. [Django 관리자](#4-django-관리자)
-05. [배포하기!](#5-배포하기)
-06. [Django urls](#6-django-urls)
-07. [Django 뷰 만들기](#7-django-뷰-만들기)
-08. [Django ORM(Querysets)](#8-django-orm)
-09. [템플릿 동적 데이터](#9-템플릿-동적-데이터)
-10. [Django 템플릿](#10-django-템플릿)
-11. [템플릿 확장하기](#11-템플릿-확장하기)
-12. [Django 폼](#12-django-폼)
-  
+
+- [들어가며](#0-들어가며)
+- [Python 시작하기](#1-python-시작하기)
+- [나의 첫 번째 Django 프로젝트!](#2-나의-첫-번째-django-프로젝트)
+- [Django 모델](#3-django-모델)
+- [Django 관리자](#4-django-관리자)
+- [배포하기!](#5-배포하기)
+- [Django urls](#6-django-urls)
+- [Django 뷰 만들기](#7-django-뷰-만들기)
+- [Django ORM(Querysets)](#8-django-orm)
+- [템플릿 동적 데이터](#9-템플릿-동적-데이터)
+- [Django 템플릿](#10-django-템플릿)
+- [템플릿 확장하기](#11-템플릿-확장하기)
+- [Django 폼](#12-django-폼)
+
 </details>
 
 ## 0. 들어가며
