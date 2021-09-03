@@ -328,5 +328,4 @@ def post_edit(request, pk):
 
 > 또, 나는 이해한 내용을 간단히 정리하는 것을 좋아해서, 웹사이트가 작동하는 원리와 웹 개발 작업을 하면서 git이 하는 역할을 간단히 그림으로 정리해보았다. 머리 속의 개념을 실제로 그려보면서 꺼내보니 훨씬 이해하기 좋았다. 꼭 그림이 아니더라도 이해한 부분을 간단히 정리하는 일을 해보는 것도 좋을 것 같다.
 
-<img src= "https://github.com/gnusuy/project-Sisyphus/blob/main/django-girls-tutorial/djangogirls_1.jpeg?raw=true
-" width="700" >
+<img src= "https://github.com/gnusuy/project-Sisyphus/blob/main/django-girls-tutorial/djangogirls_1.jpeg?raw=true" width="700"></img>
