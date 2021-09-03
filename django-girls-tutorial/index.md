@@ -4,7 +4,7 @@
 
 <br>
 
-<details><summary>목차</summary>
+## <details><summary>목차</summary>
 
 [00. 들어가며](#들어가며)<br>
 [01. Python 시작하기](#Python-시작하기)<br>
