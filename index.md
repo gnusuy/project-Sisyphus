@@ -5,7 +5,7 @@ One must imagine Sisyphus happy.
 
 <!--WHATS-ARE-THIS-PAGES?-->
  <details>
-  <summary><b>what are this pages?</b></summary>
+  <summary><b>what are these pages?</b></summary>
   <div markdown="1">
 
 > <i>시시포스는 그리스 신화에 나오는 인간이다. 그는 교활하고 꾀가 많아서 신들을 기만하는 행위를 일삼았다. 그에 대한 벌로 신은 시시포스에게 영원한 노동의 벌을 부여받는다. 매일 큰 바위를 산 정상에 올려야하고, 올라간 바위는 다시 산 아래로 굴러떨어진다.</i>
