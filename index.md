@@ -53,7 +53,7 @@ One must imagine Sisyphus happy.
    
  01. <b> [Github pages를 생성하는 방법](https://gnusuy.github.io/project-Sisyphus/how-to-create-github-pages) </b>
  02. <b> [장고걸스 튜토리얼](https://gnusuy.github.io/project-Sisyphus/django-girls-tutorial) </b>
- 03. 
+ 03. <b> [웹 서비스 기획하기](https://gnusuy.github.io/project-Sisyphus/tmit) </b>
 
   </div>
   </details>
